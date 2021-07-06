@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration Page</title>
+</head>
+<body>
+	<table border='2' align='center'>
+		<tr>
+			<td>First name</td>
+			<td>
+				<input type="text" id="txtFirstname"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Last name</td>
+			<td>
+				<input type="txt" id="txtLastname"/>
+			</td>
+		</tr>
+		<tr>
+			<td>User name</td>
+			<td>
+				<input type="txt" id="txtusername"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>
+				<input type="Password" id="txtpassword"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				<input type="radio" id="rmale" value="male" name="gender"/>male
+				<input type="radio" id="rfemale" value="female" name="gender"/>female
+			</td>
+		</tr>
+		<tr>
+			<td>Qualification</td>
+			<td>
+				<select id="dqualification"> 
+					<option>Btech</option>
+					<option>Barch</option>
+					<option>degree</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Languages known</td>
+			<td>
+				<input type="checkbox" id="txtenglish" value='engish' name="Languages"/>english
+				<input type="checkbox" id="txttelugu" value='telugu' name="Languages"/>telugu
+				<input type="checkbox" id="txthindi" value='hindi' name="Languages"/>hindi
+				<input type="checkbox" id="txtmarathi" value='marathi' name="Languages"/>marathi
+				<input type="checkbox" id="txtspanish" value='spanish' name="Languages"/>spanish
+				
+				
+			</td>
+		</tr>
+		<tr>
+			<td>Temporary Address</td>
+			<td>
+				<textarea id="taAddress" rows='10' cols="10"> </textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>Permanent address</td>
+			<td>
+				<textarea id="taAddress" rows="10" cols="10"> </textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>Resume</td>
+			<td>
+				<input type="file" id="'fresume"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="button" id="btnregister" value="Register"/>
+			</td>
+			<td>
+				<input type="button" id="btnclear" value="Clear"/>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
